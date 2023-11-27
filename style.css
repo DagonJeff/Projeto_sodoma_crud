@@ -1,19 +1,92 @@
-/*.container{
+/* Reset de estilos padrão do navegador */
+body, h1, h2, h3, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
 
-};
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-.row{
+.row {
+    margin-bottom: 20px;
+}
 
-};
+.col {
+    float: left;
+    width: 100%;
+}
 
-.col{
+.formul {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-};
-.table{
+form div {
+    margin-bottom: 15px;
+}
 
-};
-*/
-.imgtable{
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
 
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.imgtable {
     width: 36px;
-};
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
