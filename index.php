@@ -1,6 +1,5 @@
 <?php
     include_once "verbindung.php";
-
 ?>
 
 <!DOCTYPE html>
@@ -12,6 +11,18 @@
     <title>Sodoma</title>
 </head>
 <body>
+    <div id="overlay" class="overlay">
+        <div id="prompt-container" class="prompt-container">
+            <p>BEM VINDO À SODOMA!!</p>
+            <p>Cadastre seu e-mail e ganhe 10% OFF!</p>
+            <input type="text" id="emailInput" placeholder="Seu e-mail">
+            <input type="text" id="senhaInput" placeholder="Sua senha">
+            <button onclick="solicitarEmail()">Entrar</button>
+            <button onclick="fecharOverlay()">Cancelar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
     <div class="container">
         <div class="row">
             <div class="col">
