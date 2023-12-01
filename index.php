@@ -1,6 +1,10 @@
 <?php
+
+//Aqui é "chamada" a página que faz a conexão com o banco de dados
     include_once "verbindung.php";
 ?>
+
+//Página inicial que contem a tabela de cadastro de produtos e exibe os produtos cadastrados
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -32,6 +36,10 @@
 
         <div class="formul">
 
+            //É utilizado o método GET para pegar os dados digitados nos campos do formulário e salvar
+            //na tabela do banco de dados já criado anteriormente e atrvés do "action" que no seu parâmetro é passado a página referente
+            //com os comandos que realizam esse processo.
+            
             <form method="GET" action="fertig.php">
         
                 <div>
@@ -83,6 +91,9 @@
                     </thead>
                     <tbody>
                         <?php
+
+                    //Aqui está sendo utilizado código SQL passado através de variáveis e funções em PHP
+                    //para fazer uma varredura na tabela do banco de dados e coletar os dados da mesma e exibi-las.
 
                         $sql = "Select * from produtos";
                         $suchen = mysqli_query($verbindung, $sql);
