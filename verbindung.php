@@ -1,5 +1,7 @@
 <?php
 
+//Página que reliza a conexão com o banco de dados já existente na plataforma e a criação da tabela.
+
 $host   = "localhost";
 $user   = "root";
 $pass   = "";
@@ -13,7 +15,7 @@ if(!$verbindung){
     exit;
 }
 
-
+//Código SQL para criação da tabela no banco de dados.
 $createtable = "CREATE TABLE produtos(
     id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     tipo VARCHAR(69) NOT NULL,
