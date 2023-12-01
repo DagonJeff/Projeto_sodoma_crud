@@ -25,7 +25,7 @@
     <script src="script.js"></script>
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col6">
                 <h2>Cadastro de produtos</h2>
             </div>
         </div>
@@ -33,11 +33,7 @@
         <div class="formul">
 
             <form method="GET" action="fertig.php">
-                <div>
-                    <input type="number" id=codigo name="codigo" readonly 
-                    value="<?php echo filter_input(INPUT_GET, "codigo", FILTER_SANITIZE_SPECIAL_CHARS);?>">
-                    <label for="codigo">Código</label>
-                </div>
+        
                 <div>
                     <input type="text" id=tipo name="tipo"
                     value="<?php echo filter_input(INPUT_GET, "tipo", FILTER_SANITIZE_SPECIAL_CHARS);?>">
@@ -58,10 +54,8 @@
                     <div class="row">
                         <div class="col">
                             <a href="index.php">
-                            <button type="button" class="btn">Novo</button>
+                            <button type="button" class="btn">Limpar</button>
                             </a>
-                        </div>
-                        <div class="col">
                             <button type="submit" class="btn">Salvar</button>
                         </div>
                     </div>
@@ -75,9 +69,9 @@
     <div class="container">
 
         <div class="row">
-            <div class="col">
+            <div class="table">
                 <table class="table" border="1">
-                    <thead>
+                    <thead class="table">
                         <tr>
                             <th>Código</th>
                             <th>Tipo do produto</th>
