@@ -41,7 +41,6 @@
             window.location.href='index.php';
         </script>
         ";    }
-    //O comando abaixo no meu não compila por isso está comentado,
-    //surgiro descomentarem esse código e testar no de vcs.
+
     //mysqli_close();
 ?>
