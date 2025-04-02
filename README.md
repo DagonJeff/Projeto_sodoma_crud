@@ -1,7 +1,7 @@
 # Projeto_sodoma_crud
 
 ## Descrição
-Este projeto é um sistema CRUD (Create, Read, Update, Delete) desenvolvido para simular uma cadastro online de produtos de Merchandising de uma banda como por exemplo: CDs camisetas, fitas e etc. Ele utiliza PHP, CSS e JavaScript para fornecer uma interface amigável e funcional.
+Este projeto é um sistema CRUD (Create, Read, Update, Delete) desenvolvido com colegas de turma durante minha trajetória acadêmica, que tem por finalidade simular um cadastro online de produtos de Merchandising de uma banda como por exemplo: CDs, camisetas, fitas, vinis e etc. Ele utiliza PHP, CSS e JavaScript para fornecer uma interface amigável e funcional.
 
 ## Tecnologias Utilizadas
 - **PHP**: Linguagem de programação para o backend.
